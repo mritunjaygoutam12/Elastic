@@ -1,7 +1,7 @@
 elasticsearch
 ==================
 
-Tools for moving and saving indicies.
+Example for moving and saving indicies.
 
 ---
 
