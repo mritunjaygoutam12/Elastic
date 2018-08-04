@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const dburi = 'mongodb://127.0.0.1/book';
+const dburi = 'mongodb://127.0.0.1:27017/Elastic';
 mongoose.connect(dburi, (err) => {
   if (err) throw err;
 });

@@ -7,7 +7,6 @@ const router = express.Router();
 // console.log(validator);
 
 router.post('/add-book', validitate(validator.addBook), (req, res) => {
-  console.log(req.body, 'data hai');
   bookController.addBook(req.body).then((data) => {
     console.log(data);
     res.send(data);
@@ -16,9 +15,25 @@ router.post('/add-book', validitate(validator.addBook), (req, res) => {
   });
 });
 
-router.post('/get-book', validitate(validator.getBook), (req, res) => {
-  console.log(req.body, 'data hai');
+router.get('/get-book', (req, res) => {
   bookController.getAllBook(req.body).then((data) => {
+    console.log(data);
+    res.send(data);
+  }).catch((err) => {
+    throw err;
+  });
+});
+
+router.post('/matched-book', (req, res) => {
+  bookController.matchedBook(req.body).then((data) => {
+    res.send(data);
+  }).catch((err) => {
+    throw err;
+  });
+});
+
+router.post('/filter-book', (req, res) => {
+  bookController.filterBook(req.body).then((data) => {
     console.log(data);
     res.send(data);
   }).catch((err) => {
