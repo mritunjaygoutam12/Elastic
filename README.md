@@ -2,12 +2,9 @@ elasticsearch
 ==================
 
 Example for moving and saving indicies.
+[![Nodei stats](https://www.elastic.co/assets/blt244a845f141977c3/elastic-logo.svg?downloads=true)](https://npmjs.org/package/elasticdump)
 
 ---
-
-[![Build Status](https://secure.travis-ci.org/taskrabbit/elasticsearch-dump.png?branch=master)](http://travis-ci.org/taskrabbit/elasticsearch-dump)  [![Code Climate](https://codeclimate.com/github/taskrabbit/elasticsearch-dump/badges/gpa.svg)](https://codeclimate.com/github/taskrabbit/elasticsearch-dump)
-[![Join the chat at https://gitter.im/taskrabbit/elasticsearch-dump](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/taskrabbit/elasticsearch-dump?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 ## Version!
 
 - Version `6.3.0`  
