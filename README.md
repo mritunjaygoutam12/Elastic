@@ -127,6 +127,6 @@ client.search({
   }).then((body) => {
     const hits = body.hits.hits;
     resolve(hits);
-    ```
-
-For more https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+    
+  ```
+For more, read [https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
